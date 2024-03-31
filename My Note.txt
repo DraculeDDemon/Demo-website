@@ -2,5 +2,3 @@ Hiệu ứng chuyển động ở giữa trang là particle trong particle JS c�
 
 Điều chỉnh dark-light mode button in style, toggle switch button
 Điều chỉnh hình ảnh button bằng link ảnh được up lên theo url (background-image)
-
-Điều chỉnh màu bút ScrollToTop trong app.js phần 
