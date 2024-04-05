@@ -62,15 +62,29 @@
 </head>
 
 <body class="no-scroll-preload">
-    <!-- loader -->
+     <style>
+        .gif-container {
+            width: 100px; 
+            height: 100px; 
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .gif-container img {
+        max-width: 1000%;
+        max-height: 1000%;
+    }
+    </style>
     <div class="loader-container">
-        <div class="atom">
+        <!-- <div class="atom">
             <div class="electron"></div>
             <div class="electron-alpha"></div>
             <div class="electron-omega"></div>
-		</div>
-   </div>
-add 
+        </div> -->
+        <div class="gif-container">
+            <img src="assets\images\Greeting.gif" alt="Animated GIF">
+        </div> 
+    </div>
 
     <div class="container pt-5" style="width: 100%; min-height: 80%">
         <section style="height: 70vh">

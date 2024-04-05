@@ -62,13 +62,29 @@
 <body class="no-scroll-preload">
 
     <!-- loader -->
-    <div class="loader-container">
-        <div class="atom">
-            <div class="electron"></div>
-            <div class="electron-alpha"></div>
-            <div class="electron-omega"></div>
-        </div>
-   </div>
+    <style>
+      .gif-container {
+          width: 100px; 
+          height: 100px; 
+          display: flex;
+          justify-content: center;
+          align-items: center;
+      }
+      .gif-container img {
+      max-width: 1000%;
+      max-height: 1000%;
+  }
+  </style>
+  <div class="loader-container">
+      <!-- <div class="atom">
+          <div class="electron"></div>
+          <div class="electron-alpha"></div>
+          <div class="electron-omega"></div>
+      </div> -->
+      <div class="gif-container">
+          <img src="assets\images\Greeting.gif" alt="Animated GIF">
+      </div> 
+  </div>
 
     <!--Dynamic Nav Bar-->
 
