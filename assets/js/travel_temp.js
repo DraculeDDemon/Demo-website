@@ -7,28 +7,29 @@ document.addEventListener("DOMContentLoaded", () => {
     {
       day: "Day 1",
       description: "description",
-      background_image: "assets/images/travel/trip1/street.jpg"
+      background_image: "assets/images/designs/D_design/Gentle2.png"
     },
     {
       day: "Day 2",
       description: "description",
-      background_image: "assets/images/travel/trip1/qutub_minar.jpg"
+      background_image: "assets/images/designs/D_design/Gentle1.png"
     },
     {
       day: "Day 3",
       description: "description",
-      background_image: "assets/images/travel/trip1/lotus_temple.jpg"
+      background_image: "assets/images/designs/D_design/DN_Logo.png"
     },
     {
       day: "Day 4",
       description: "description",
-      background_image: "assets/images/travel/trip1/old_fort.jpg"
+      background_image: "assets/images/designs/D_design/Chibi.png"
     },
     {
       day: "Day 5",
       description: "description",
-      background_image: "assets/images/travel/trip1/red_fort.jpg"
+      background_image: "assets/images/designs/D_design/Greeting.png"
     }
+      
   ];
 
   // AOS.init();
